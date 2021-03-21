@@ -1,0 +1,22 @@
+body{
+    background-color: wheat;
+}
+#gombok{
+    text-align: center;
+    
+}
+.bevitel{
+    
+    border: aqua;
+}
+#allapot{
+    text-align: center;
+    
+}
+#egy, #ketto, #harom, #negy, #ot, #hat, #het, #nyolc, #kilenc, #nulla{
+    padding: 3vh;
+    margin: 0.1rem;
+}  
+#ok, #torles{
+    padding: 1.51rem;
+}

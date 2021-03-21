@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <script src="bomb.js"></script>
+    <link rel="stylesheet" href="bomb.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomb</title>
+</head>
+<body>
+    <table id="bevitel" >
+        <tr>
+            <p>A bevitt szám: <span id="bevSzam"></span></p>
+        </tr>
+        <tr>
+            <p class="szam"><span></span></p>
+        </tr>
+    </table>
+    <div id="gombok">
+        <button onclick="egy()" id="egy" value="1">1</button>
+        <button onclick="ketto()" id="ketto" value="2">2</button>
+        <button onclick="harom()" id="harom" value="3">3</button>
+        <br>
+        <button onclick="negy()" id="negy" value="4">4</button>
+        <button onclick="ot()" id="ot" value="5">5</button>
+        <button onclick="hat()" id="hat" value="6">6</button>
+        <br>
+        <button onclick="het()" id="het" value="7">7</button>
+        <button onclick="nyolc()" id="nyolc" value="8">8</button>
+        <button onclick="kilenc()" id="kilenc" value="9">9</button>
+        <br>
+        <button onclick="bevitel()" id="ok">OK</button>
+        <button onclick="nulla()" id="nulla" value="0">0</button>        
+        <button onclick="torles()" id="torles">DEL</button>
+        <br>
+        <button onclick="kezd()" id="start">Start</button>
+    </div>
+
+    <p>A generált szám: <p id="genSzam"></p></p>
+    
+    <p id="allapot">Állapot bevitelre vár</p>
+
+    <p id="szamlalo"></p>
+</body>
+</html>
